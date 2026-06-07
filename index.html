@@ -203,6 +203,17 @@
       max-width: 500px;
       margin: 0 auto;
     }
+    
+    .hero p a {
+      color: var(--accent-2);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+    
+    .hero p a:hover {
+      text-decoration: underline;
+    }
 
     .stats-grid {
       display: grid;
@@ -700,6 +711,8 @@
           <a href="#beranda-section">Beranda</a>
           <a href="#upload-section">Unggah</a>
           <a href="#footer-section">Kontak</a>
+          <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 4px 0;">
+          <a href="https://ruangotp.net" target="_blank" rel="noopener noreferrer" style="color: var(--accent-2);">RuangOTP</a>
         </div>
       </div>
 
@@ -713,7 +726,7 @@
         <span class="gradient-text">Upload & Share</span>
         <br>with Next-Gen CDN
       </h1>
-      <p>Store, serve, and deliver your images and code files instantly across the globe with zero latency.</p>
+      <p>Store, serve, and deliver your images and code files instantly across the globe with zero latency. Powered by <a href="https://ruangotp.net" target="_blank" rel="noopener noreferrer">RuangOTP</a>.</p>
     </section>
 
     <section class="stats-grid">
@@ -847,7 +860,7 @@ async function uploadFromUrl(imageUrl) {
 
   <footer id="footer-section">
     <div class="container">
-      <p>Powered by <a href="https://ruangotp.net" target="_blank">RuangOTP</a> - paiscode.com</p>
+      <p>Powered by <a href="https://ruangotp.net" target="_blank" rel="noopener noreferrer">RuangOTP</a> - paiscode.com</p>
       
       <div class="contact-info">
         <p>
